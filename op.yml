@@ -100,7 +100,7 @@ inputs:
 version: 1.1.0
 run:
   container:
-    image: { ref: 'azuresdk/azure-cli-python:2.0.25' }
+    image: { ref: 'mcr.microsoft.com/azure-cli:2.0.28' }
     cmd: [ /cmd.sh ]
     files:
       /cmd.sh:
